@@ -1,5 +1,4 @@
 body {
-    font-family: 'Abel', sans-serif;
     background-image: url(../img/fondo.png);
 }
 
@@ -13,7 +12,7 @@ body {
 
 header h1 {
     text-align: center;
-    color: yaleblue;
+    color: #06283D;
     font-family: 'Abel', sans-serif;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -28,8 +27,7 @@ header p {
 blockquote {
     text-align: center;
     color: white;
-    font-size: 1.5rem;
-    margin: 3rem auto;
+    font-size: 1.3rem;
 }
 
 nav ul {
@@ -63,11 +61,12 @@ nav ul li a:hover {
 
 nav a:active {
     color: darkblue;
-} /*cuando hago click se pone de color azul*/
+} /*cuando hago click se tendria que poner de color azul*/
 
 section h2 {
-    color: yaleblue;
+    color: #06283D;
     font-size: 2rem;
+    font-family: 'Abel', sans-serif;
 }
 
 section p {
@@ -98,9 +97,10 @@ section ul {
 
 address p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 3rem;
+    padding-top: 2rem;
+    font-weight: bold;
 }
 
 address p a {
