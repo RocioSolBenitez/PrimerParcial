@@ -4,16 +4,18 @@
    <head>
 	  <meta charset="utf-8">
 	  <title>Laurie Anderson</title>
-      <link href="css/estilos.css" rel="stylesheet"> <!-- Link al archivo de estilos -->
       <link href="https://fonts.google.com/specimen/Abel" rel="stylesheet"> <!-- Link al archivo de tipografia -->
+      <link href="css/estilos.css" rel="stylesheet"> <!-- Link al archivo de estilos -->
+      
    </head>
 
    <body>
-   <div class= "contenedor"> <!-- Etiqueta no semántica que sirve para agrupar elementos y tiene una clase -->
+   <div id="contenedor"> <!-- Etiqueta no semántica que sirve para agrupar elementos y tiene un identificador -->
 
     <header>
         <h1>Laurie Anderson</h1>
         <p>Performance, Tecnología y Narración en el Arte Contemporáneo</p>
+        <hr>
     <nav>
         <ul>
             <li><a href="index.html">Laurie Anderson</a></li>
@@ -21,11 +23,12 @@
             <li><a href="tecnologia.html">Tecnología</a></li>
         </ul>
     </nav>
+    <hr>
 </header>
 
 <main>
     <section>
-        <blockquote>“El lenguaje es un virus que viene del espacio exterior.” — Laurie Anderson</blockquote> <!-- cita -->
+        <blockquote><strong>“El lenguaje es un virus que viene del espacio exterior.” — Laurie Anderson</strong></blockquote> <!-- cita -->
     </section>
 
     <section>
@@ -63,8 +66,11 @@
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
+    
     <footer>
-        <p>Para contactarse escribir a laurie@artedigital.com</p>
+        <address>
+            <p>Para contactarse escribir a <a href="mailto:laurie@artedigital.com">laurie@artedigital.com</a></p>
+        </address>
     </footer>
 </main>
 </div>

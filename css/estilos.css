@@ -1,4 +1,108 @@
 body {
+    font-family: 'Abel', sans-serif;
     background-image: url(../img/fondo.png);
 }
 
+#contenedor{
+    width: 76%; /*tamaño del bloque de fondo*/
+    max-width: 960px; /*tamaño máximo del bloque de fondo*/
+    margin: 1rem auto; /*para que quede centrado*/
+    padding: 2rem; /*espacio entre el borde del bloque y el contenido*/
+    background-color: steelblue;
+}
+
+header h1 {
+    text-align: center;
+    color: yaleblue;
+    font-family: 'Abel', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+blockquote {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 3rem auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 2rem;
+    font-size: 1.5rem;
+}
+
+nav ul li a{
+    text-decoration: none; /*le saque las lineas*/  
+}
+
+nav ul li a:link {
+    color:white;
+} 
+
+nav ul li a:visited {
+    color:white;
+} /*los cambie a color blanco*/
+
+nav ul li a:hover {
+    color: lightblue;
+} /*cuando paso el mouse, cambian de color a celeste claro*/
+
+nav a:active {
+    color: darkblue;
+} /*cuando hago click se pone de color azul*/
+
+section h2 {
+    color: yaleblue;
+    font-size: 2rem;
+}
+
+section p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+section img {
+    display:block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+section ul {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+address p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+address p a {
+    color: white;
+}
